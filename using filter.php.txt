@@ -1,0 +1,4 @@
+add_filter('woocommerce_after_order_details','contacto_mapa',10,1);
+function contacto_mapa(){
+	echo do_shortcode('[porto_block id="49093"]');
+}
